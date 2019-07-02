@@ -3,9 +3,12 @@
 - [Creating your first git repository](#creating-your-first-git-repository)
   - [Create a git folder for your repositories](#create-a-git-folder-for-your-repositories)
   - [Create a local repository](#create-a-local-repository)
+  - [Add your first file](#add-your-first-file)
 - [How to get Started with GitHub](#how-to-get-started-with-github)
   - [Create a GitHub account](#create-a-github-acccount)
   - [Generating SSH key](#generating-an-ssh-key)
+  - [Push local repo to GitHub](#pushing-local-repo)
+- [Group assignment](#group-assignment)
 - [Resources](#resources)
 
 ## Install on Windows
@@ -29,13 +32,58 @@ cd ~\Documents
 mkdir git
 cd git
 ```
+This folder can be used to store all your git repositories
 
 ### Create a local repository
+Next we'll create a seperate directory which is going to become our first git repo
+
+```bash
+mkdir hello_git
+cd hello_git
+git init
+```
+
+### Add your first file
+Create a python file by entering the following command
+
+```bash touch hello.py```
+
+Open edit mode by entering ```bash vim hello.py``` 
+Insert some text in the file by typing ```python print('Hello GitHub!')```
+Save and close the file by entering ```bash :wq```
+
+Great! Now let's add and commit your file to your local repository
+
+```bash
+git add
+git commit -m "initial commit"
+```
+
+Your files and changes are now saved in your local repository, next we'll work on pushing the files to GitHub so your code is always backed-up and shareable with people around the world.
 
 ## How to get started with GitHub
 
 ### Create a GitHub account
+Go [here](https://github.com/join) and create an account. Make sure to select the Free subscription.
 
 ### Generating an SSH key
+SSH keys are used for authentication and allow you to connect to GitHub without supplying your username and password every time.
+Read on how to create your SSH key [here](https://help.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+### Push your local repo to GitHub
+First, go to Github and in the topright click <New repository>
+Name it "hello_git", leave all the other settings as they are and click <create>
+At the top of the hello_git repo you'll find a quick setup. Copy either the link for HTTPS or SSH
+Enter the following commands in GitBash:
+
+```bash
+git remote add origin <paste url here>
+git push origin master
+```
+
+You've done it! Your first piece of code is now pushed to GitHub.
+
+## Group assignment
+If you're in an instructor led class you can now go to the folder group_assignment and follow the instructions
 
 ## Resources

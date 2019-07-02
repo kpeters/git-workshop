@@ -46,11 +46,11 @@ git init
 ### Add your first file
 Create a python file by entering the following command
 
-```bash touch hello.py```
+```touch hello.py```
 
-Open edit mode by entering ```bash vim hello.py``` 
-Insert some text in the file by typing ```python print('Hello GitHub!')```
-Save and close the file by entering ```bash :wq```
+Open edit mode by entering ```vim hello.py```   
+Insert some text in the file by typing ```print('Hello GitHub!')```  
+Save and close the file by entering ```:wq```
 
 Great! Now let's add and commit your file to your local repository
 
@@ -59,7 +59,9 @@ git add
 git commit -m "initial commit"
 ```
 
-Your files and changes are now saved in your local repository, next we'll work on pushing the files to GitHub so your code is always backed-up and shareable with people around the world.
+Your files and changes are now saved in your local repository, next we'll 
+work on pushing the files to GitHub so your code is always backed-up and 
+shareable with people around the world.
 
 ## How to get started with GitHub
 
@@ -71,9 +73,9 @@ SSH keys are used for authentication and allow you to connect to GitHub without 
 Read on how to create your SSH key [here](https://help.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ### Push your local repo to GitHub
-First, go to Github and in the topright click <New repository>
-Name it "hello_git", leave all the other settings as they are and click <create>
-At the top of the hello_git repo you'll find a quick setup. Copy either the link for HTTPS or SSH
+First, go to Github and in the topright click 'New repository'
+Name the repository "hello_git", leave all the other settings as they are and click 'create'  
+At the top of the hello_git repo you'll find a quick setup. Copy either the link for HTTPS or SSH  
 Enter the following commands in GitBash:
 
 ```bash

@@ -41,5 +41,5 @@ Next click **Commit merge**, review your commit and click **I understand, update
 Well done! The Pull-request can now be merged.
 
 ## Sources used
-[How to Fork a repo](https://help.github.com/en/articles/fork-a-repo)
+[How to Fork a repo](https://help.github.com/en/articles/fork-a-repo)  
 [How to solve merge conlficts](https://help.github.com/en/articles/resolving-a-merge-conflict-on-github)

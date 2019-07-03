@@ -11,7 +11,7 @@ Once in the git directory, clone the repo by entering ```git clone <paste url he
 
 ## The assignment
 ### Start making changes
-Each group should be editing their own file, align beforehand which group will edit which file.
+Each group should be editing their own file, align beforehand which group will edit which file.  
 ```Individually``` - Once the file your group will work on has been chosen, open that file in a text editor and edit the python code as instructed inside the file
 
 ### Commit & push your changes
@@ -39,3 +39,7 @@ Edit the file to keep your changes, the other changes or both and remove the con
 Once the merge conflicts are resolved click **Mark as resolved** in the top right. 
 Next click **Commit merge**, review your commit and click **I understand, update BRANCH**. 
 Well done! The Pull-request can now be merged.
+
+## Sources used
+[How to Fork a repo](https://help.github.com/en/articles/fork-a-repo)
+[How to solve merge conlficts](https://help.github.com/en/articles/resolving-a-merge-conflict-on-github)

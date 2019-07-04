@@ -5,7 +5,7 @@ In the following sections we'll note if an action is to be performed individuall
 ## First get a local copy (individually)
 Begin by clicking the **Fork** button in the header of the repository    
 After Forking is complete, click the **Clone** button, copy the url for either HTTPS or SSH  
-In GitBash, navigate to the directory where you keep al your git repos by entering the following command:
+In GitBash, navigate to the directory where you keep all your git repos by entering the following command:
 ```cd ~\Documents\git```  
 Once in the git directory, clone the repo by entering ```git clone <paste url here>```, you now have a local copy
 

@@ -12,15 +12,22 @@ Once in the git directory, clone the repo by entering ```git clone <paste url he
 ## The assignment
 ### Start making changes
 Each group should be editing their own file, align beforehand which group will edit which file.  
-```Individually``` - Once the file your group will work on has been chosen, open that file in a text editor and edit the python code as instructed inside the file
+```Individually``` - Once the file your group will work on has been chosen, open that file in a text editor and edit the python code as instructed inside the file  
+Save the file and return to you git terminal, enter ```git status``` and observe the output. Git tells you what it thinks you should do next!
+
 
 ### Commit & push your changes
 ```Group``` - commit the changes of **one** of the group members
 ```bash
 git add .
+git status # read the status message
 git commit -m "added print statement by <your name here>"
+git status
 git push
+git  status
 ```
+As you can see, ```git status``` is a very useful command.
+
 
 ### Make a pull request
 ```Group``` - Have the person who's changes got pushed go to their forked repository.

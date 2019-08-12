@@ -48,14 +48,15 @@ Create a python file by entering the following command
 
 ```touch hello.py```
 
-Open edit mode by entering ```vim hello.py```   
-Insert some text in the file by typing ```print('Hello GitHub!')```  
-Save and close the file by entering ```:wq```
+Open edit mode by entering ```vim hello.py```, if you prefer nano that's fine, I've chosen vim as it comes preinstalled on most OS   
+Press ```i``` to enter insert-mode and insert some text in the file by typing ```print('Hello GitHub!')```  
+Press ```Esc``` to exit insert-mode, save and close the file by entering ```:wq```
+
 
 Great! Now let's add and commit your file to your local repository
 
 ```bash
-git add
+git add .
 git commit -m "initial commit"
 ```
 
